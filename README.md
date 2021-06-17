@@ -3,7 +3,8 @@
 
 ## How to use
 
-`input/input.json` & `output/output.vtt`
+- Input file: `input/input.json`
+- Output file: `output/output.vtt`
 
 ```bash
 $ python main.py
@@ -21,7 +22,7 @@ $ python main.py
   "results": {
     "transcripts": [
       {
-        "transcript": "안녕하세요. 해피해킹에 ..."
+        "transcript": "안녕하세요. 해피해킹에"
       }
     ],
     "items": [
@@ -55,8 +56,7 @@ $ python main.py
           }
         ],
         "type": "pronunciation"
-      },
-      // ...
+      }
     ]
   },
   "status": "COMPLETED"
@@ -72,6 +72,6 @@ WEBVTT
 안녕하세요.
 
 00:00:02.890 --> 00:00:04.380
-해피해킹에 ...
+해피해킹에
 ```
 
