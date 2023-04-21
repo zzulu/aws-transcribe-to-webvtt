@@ -17,7 +17,7 @@ $ python main.py
 
 ```json
 {
-  "jobName": "coupang-story-copy",
+  "jobName": "happy-story",
   "accountId": "323249573163",
   "results": {
     "transcripts": [
